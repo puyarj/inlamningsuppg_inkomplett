@@ -1,0 +1,28 @@
+/* Fyll på med all CSS-kod nödvändigt för att headern ska se ut som den på videon */
+
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 200px;
+    gap: 5px;
+}
+
+header > div {
+    height: 200px;
+}
+
+#text {
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#text > h1 {
+    font-family: "RC-Bold";
+    font-size: 45px;
+    text-shadow: #ffffff 5px 1px 10px;
+}
